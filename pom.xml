@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.rao.study</groupId>
-    <artifactId>study-trace-bussiness</artifactId>
+    <artifactId>study-trace-business</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>study-trace-bussiness-api</module>
-        <module>study-trace-bussiness-core</module>
-        <module>study-trace-bussiness-web</module>
+        <module>study-trace-business-api</module>
+        <module>study-trace-business-core</module>
+        <module>study-trace-business-web</module>
     </modules>
 
     <properties>
@@ -44,13 +44,13 @@
             </dependency>
             <dependency>
                 <groupId>com.rao.study</groupId>
-                <artifactId>study-trace-bussiness-api</artifactId>
+                <artifactId>study-trace-business-api</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
 
             <dependency>
                 <groupId>com.rao.study</groupId>
-                <artifactId>study-trace-bussiness-core</artifactId>
+                <artifactId>study-trace-business-core</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
 
