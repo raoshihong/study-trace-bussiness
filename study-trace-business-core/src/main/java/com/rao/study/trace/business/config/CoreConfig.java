@@ -7,7 +7,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @Configuration
 @MapperScan(basePackages = {"com.rao.study.trace.business.mapper"})
-@ComponentScan(basePackages = {"com.rao.study.trace.*"})
+@ComponentScan(basePackages = {"com.rao.study.trace.lib"})
 @EnableAspectJAutoProxy
 public class CoreConfig {
 }

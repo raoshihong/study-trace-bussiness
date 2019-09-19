@@ -1,6 +1,6 @@
 package com.rao.study.trace.business.service;
 
-import com.rao.study.trace.business.entity.UserLogin;
+import com.rao.study.trace.business.entity.Agent;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -9,8 +9,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * </p>
  *
  * @author 
- * @since 2019-09-11
+ * @since 2019-09-17
  */
-public interface IUserLoginService extends IService<UserLogin> {
+public interface IAgentService extends IService<Agent> {
 
 }

@@ -19,8 +19,8 @@ public class MybatisPlusGenerator {
 	 * RUN THIS
 	 */
 	public static void main(String[] args) {
-		generator("t_user");
-		generator("t_user_login");
+		generator("t_channel");
+		generator("t_agent");
 	}
 
 	public static void generator(String tableName){

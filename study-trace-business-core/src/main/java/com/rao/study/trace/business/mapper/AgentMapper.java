@@ -1,6 +1,6 @@
 package com.rao.study.trace.business.mapper;
 
-import com.rao.study.trace.business.entity.UserLogin;
+import com.rao.study.trace.business.entity.Agent;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -9,8 +9,8 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * </p>
  *
  * @author 
- * @since 2019-09-10
+ * @since 2019-09-17
  */
-public interface UserLoginMapper extends BaseMapper<UserLogin> {
+public interface AgentMapper extends BaseMapper<Agent> {
 
 }

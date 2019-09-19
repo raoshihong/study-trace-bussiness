@@ -22,4 +22,16 @@ public class UserFacedImpl implements IUserFaced {
         BeanUtils.copyProperties(userDto,user);
         iUserService.save(user);
     }
+
+    @Override
+    public void update(UserDto userDto) {
+        User user = new User();
+        BeanUtils.copyProperties(userDto,user);
+        iUserService.updateById(user);
+    }
+
+    @Override
+    public void delete(Long id) {
+        iUserService.removeById(id);
+    }
 }

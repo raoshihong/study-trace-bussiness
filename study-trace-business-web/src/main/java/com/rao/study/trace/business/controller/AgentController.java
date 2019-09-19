@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
  * </p>
  *
  * @author 
- * @since 2019-09-11
+ * @since 2019-09-17
  */
 @RestController
-@RequestMapping("/userLogin")
-public class UserLoginController {
+@RequestMapping("/agent")
+public class AgentController {
 
 }

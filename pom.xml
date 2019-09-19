@@ -8,6 +8,7 @@
     <artifactId>study-trace-business</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
         <module>study-trace-business-api</module>
         <module>study-trace-business-core</module>
